@@ -5,7 +5,7 @@ public class Iphone extends Mobile {
 
     @Override
     public void makeCall(String message) {
-        if (message.length()> 10){
+        if (message.length()> 50){
             System.out.println("<iPhone> Message cannot be sent");
         }else{
             System.out.print("<iPhone> ");

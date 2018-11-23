@@ -9,33 +9,33 @@ public class App {
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
         Mobile mobile1 = new Mobile ( "mobile1name","mobile1color","mobile1brand");
-        mobile1.makeCall("message");
+        mobile1.makeCall("mobile1.makeCall.message");
         mobile1.getBasicInfo();
 
         Mobile iphone1 = new Iphone( "iphone1name","iphone1color","iphone1brand");
-        iphone1.makeCall("message");
+        iphone1.makeCall("iphone1.makeCall.message");
         iphone1.getBasicInfo();
 
         Mobile android1 = new Android( "android1name","android1color","android1brand");
-        android1.makeCall("message");
+        android1.makeCall("android1.makeCall.message");
         android1.getBasicInfo();
 
         Person p1 = new Person(mobile1);
-        p1.makeCall("message");
+        p1.makeCall("p1.makeCall.message");
 
         Person p2 = new Person(iphone1);
-        p2.makeCall("message");
+        p2.makeCall("p2.makeCall.message");
 
         Person p3 = new Person(android1);
-        p3.makeCall("message");
+        p3.makeCall("p3.makeCall.message");
 
         Iphone iphone2 = new Iphone( "iphone2name","iphone2color","iphone2brand");
         IPhoneRobot I1 = new IPhoneRobot(iphone2);
-        I1.makeCall("message");
+        I1.makeCall("I1.makeCall.message");
 
         Mobile mobile2 = new Mobile ( "mobile2name","mobile2color","mobile2brand");
         p1.setMobile(mobile2);
-        p1.makeCall("message");
+        p1.makeCall("p1.makeCall.message");
 
 
 
