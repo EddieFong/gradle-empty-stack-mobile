@@ -7,7 +7,8 @@ public class App {
     }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+//        System.out.println(new App().getGreeting());
+
         Mobile mobile1 = new Mobile ( "mobile1name","mobile1color","mobile1brand");
         mobile1.makeCall("mobile1.makeCall.message");
         mobile1.getBasicInfo();
